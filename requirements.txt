@@ -1,0 +1,20 @@
+# requirements.txt
+
+# RSS veri toplama
+feedparser==6.0.10
+
+# Transformers ile çalışmak için
+transformers==4.31.0
+
+# PyTorch: Apple Silicon (M1, M2) veya Intel Mac üzerinde CPU/mps seçeneğiyle
+# Torch 2.0+ Python 3.9 ile uyumlu
+torch==2.0.1
+
+# NER veya benzeri token klasörleri gerekebiliyor
+tokenizers==0.13.3
+
+# Bazı çeviri modelleri için gerekli
+sentencepiece==0.1.99
+
+# Çeşitli hızlandırma seçenekleri, opsiyonel ama Hugging Face ekosisteminde faydalı
+accelerate==0.21.0
