@@ -8,7 +8,7 @@ class Translator:
     2) Identifying named entities in the translated Turkish text.
     """
 
-    def __init__(self, translation_models: dict, ner_model: str):
+    def __init__(self, translation_models: dict, ner_model: str, use_multi: bool):
         """
         Constructor for the Translator.
         
@@ -17,6 +17,7 @@ class Translator:
         """
         self.translation_models = translation_models
         self.ner_model = ner_model
+        self.use_multi = use_multi
 
     def translate_and_identify(self, text: str, source_lang: str):
         """
@@ -34,10 +35,14 @@ class Translator:
             return "", []
 
         # 1) Select the translation model based on the source language
-        model_name_or_path = self.translation_models.get(source_lang)
-        if not model_name_or_path:
-            logging.error(f"No translation model found for language: {source_lang}")
-            return text, []
+        
+        if(self.use_multi):
+            model_name_or_path = self.translation_models.get("Multilingual-1")
+        else:
+            model_name_or_path = self.translation_models.get(source_lang)
+            if not model_name_or_path:
+                logging.error(f"No translation model found for language: {source_lang}")
+                return text, []
 
         # 2) Create a translation pipeline for the specified model
         translation_pipeline = pipeline(
@@ -46,7 +51,7 @@ class Translator:
         )
 
         # 3) Translate the text into Turkish
-        translation_result = translation_pipeline(text)
+        translation_result = translation_pipeline(text, src_lang=source_lang, tgt_lang="tr")
         translated_text = translation_result[0]["translation_text"]
 
         # 4) Create an NER pipeline for Turkish
@@ -61,7 +66,12 @@ class Translator:
         
         # 6) Extract relevant entity info
         entities = []
+        words = set()
         for entity_item in ner_results:
+            # Skip duplicate entities
+            if entity_item["word"] in words:
+                continue
+            words.add(entity_item["word"])
             entities.append({
                 "entity": entity_item["word"],
                 "type": entity_item["entity_group"],

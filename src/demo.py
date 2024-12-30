@@ -55,12 +55,13 @@ def main():
         item["news_text"] = cleaned_text
 
     # Step 3: Keyword analyzer
-    keyword_analyzer = KeywordAnalyzer(keywords=CONFIG["TURKEY_KEYWORDS"])
+    keyword_analyzer = KeywordAnalyzer(keyword_data_path=CONFIG["TURKEY_KEYWORDS_PATH"])
     
     # Step 4: Translator & NER
     translator = Translator(
         translation_models=CONFIG["TRANSLATION_MODELS"],
-        ner_model=CONFIG["NER_MODEL"]
+        ner_model=CONFIG["NER_MODEL"],
+        use_multi=True
     )
 
     # Step 5: Sentiment Analyzer
@@ -71,7 +72,7 @@ def main():
     # We'll just show an example on the first 5 items
     experiment_results = []
     print("\n[INFO] Starting translation, entity recognition, and sentiment analysis...\n")
-    for i, item in enumerate(all_news_data):
+    for i, item in enumerate(all_news_data[:3]):
         source_lang = item["language"]
         original_text = item["news_text"]
 

@@ -1,20 +1,33 @@
-# requirements.txt
-
-# RSS veri toplama
-feedparser==6.0.10
-
-# Transformers ile çalışmak için
-transformers==4.31.0
-
-# PyTorch: Apple Silicon (M1, M2) veya Intel Mac üzerinde CPU/mps seçeneğiyle
-# Torch 2.0+ Python 3.9 ile uyumlu
-torch==2.0.1
-
-# NER veya benzeri token klasörleri gerekebiliyor
-tokenizers==0.13.3
-
-# Bazı çeviri modelleri için gerekli
-sentencepiece==0.1.99
-
-# Çeşitli hızlandırma seçenekleri, opsiyonel ama Hugging Face ekosisteminde faydalı
 accelerate==0.21.0
+certifi==2024.12.14
+charset-normalizer==3.4.1
+click==8.1.8
+feedparser==6.0.10
+filelock==3.16.1
+fsspec==2024.12.0
+huggingface-hub==0.27.0
+idna==3.10
+Jinja2==3.1.5
+joblib==1.4.2
+MarkupSafe==3.0.2
+mpmath==1.3.0
+networkx==3.2.1
+numpy==1.21.0
+packaging==24.2
+psutil==6.1.1
+PyYAML==6.0.2
+regex==2024.11.6
+requests==2.32.3
+sacremoses==0.1.1
+safetensors==0.4.5
+sentencepiece==0.1.99
+sgmllib3k==1.0.0
+sympy==1.13.3
+tokenizers==0.13.3
+torch==2.0.1
+tqdm==4.67.1
+transformers==4.31.0
+typing_extensions==4.12.2
+urllib3==2.3.0
+pandas
+datasets

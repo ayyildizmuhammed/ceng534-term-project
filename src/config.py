@@ -1,9 +1,9 @@
 CONFIG = {
     "RSS_FEEDS": [
         {
-            "url": "https://www.tagesschau.de/xml/rss2",
-            "language": "German"
-        }
+            "url": "https://feeds.bbci.co.uk/news/world/europe/rss.xml",
+            "language": "English"
+        },
     ],
     "RSS_FEEDS_RECOVERY": [
         {
@@ -36,7 +36,9 @@ CONFIG = {
         }
     ],
     "TRANSLATION_MODELS": {
-        "English": "Helsinki-NLP/opus-mt-tc-big-en-tr",
+        "Multilingual-1" : "Narrativa/mbart-large-50-finetuned-opus-en-pt-translation",
+        # "English": "Helsinki-NLP/opus-mt-tc-big-en-tr",
+        "English": "models/fewshot_opus-mt-tc-big-en-tr",
         # "French": "Helsinki-NLP/opus-mt-fr-tr",
         "German": "Helsinki-NLP/opus-mt-tc-big-gmq-tr"
         # or local paths, e.g. "English": "/path/to/local/en-tr-model"
@@ -44,15 +46,13 @@ CONFIG = {
     # Model to be used for Named Entity Recognition (NER)
     "NER_MODEL": "savasy/bert-base-turkish-ner-cased",
     # Model to be used for sentiment analysis
-    "SENTIMENT_MODEL": "savasy/bert-base-turkish-sentiment-cased",
+    "SENTIMENT_MODEL": "models/fewshot_bert-base-turkish-sentiment-cased",
+    # "SENTIMENT_MODEL": "savasy/bert-base-turkish-sentiment-cased",k
+    "FEWSHOT_SENTIMENT_MODEL": "models/fewshot_bert-base-turkish-sentiment-cased",
+    
 
     "PREPROCESSOR": {
         "CHARS_TO_REMOVE": ["%", "…", "\n", "\r", "“", "”"]
     },
-    "TURKEY_KEYWORDS": {
-        "English": ["Turkey", "Turkish", "Ankara", "Istanbul", "Erdogan"],
-        "French": ["Turquie", "Turque", "Ankara", "Istanbul", "Erdogan"],
-        "German": ["Türkei", "Ankara", "Istanbul", "Erdogan"],
-        "Italian": ["Turchia", "Ankara", "Istanbul", "Erdogan"],
-    }
+    "TURKEY_KEYWORDS_PATH": "data/keywords/turkey_keywords.csv",
 }
