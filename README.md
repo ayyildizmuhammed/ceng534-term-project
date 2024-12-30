@@ -92,8 +92,8 @@ Additionally, there are **few-shot fine-tuning** scripts (train files) for model
     ├── translators
     │   └── translator.py
     ├── trainers
-    │   ├── train_mbart_fewshot_translation.py
-    │   ├── train_turkish_sentiment.py
+    │   ├── train_fewshot_sentiment.py
+    │   ├── train_fewshot_translation.py
     ├── utils
     │   ├── result_persister.py
     └── ...
@@ -165,31 +165,5 @@ CONFIG = {
 ```
 
 Adjust these settings to point to your chosen translation/sentiment models or your fine-tuned versions.
-
----
-
-## Todo & Possible Improvements
-
-- [ ] **Model Caching**: Avoid reloading the same pipeline for each news item.  
-- [ ] **Parallel / Distributed Processing**: For larger datasets, use multi-processing or GPUs.  
-- [ ] **Advanced Logging & Monitoring**: Track detailed logs or use an MLflow-type experiment manager.  
-- [ ] **Expanded KeywordAnalyzer**: Incorporate advanced logic for keyphrase extraction or topic modeling.  
-
----
-
-## License
-
-This project is released under the [MIT License](./LICENSE).  
-(Or specify another license if your institution/assignment requires it.)
-
----
-
-### Acknowledgments
-
-- [Hugging Face Transformers](https://github.com/huggingface/transformers)  
-- [Hugging Face Datasets](https://github.com/huggingface/datasets)  
-- [Feedparser](https://pypi.org/project/feedparser/)  
-
----
 
 > **Note**: You can modify or remove sections as needed. Make sure to update any references to your actual script names, model paths, or data files to keep everything consistent.
