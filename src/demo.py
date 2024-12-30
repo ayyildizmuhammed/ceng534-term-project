@@ -60,8 +60,7 @@ def main():
     # Step 4: Translator & NER
     translator = Translator(
         translation_models=CONFIG["TRANSLATION_MODELS"],
-        ner_model=CONFIG["NER_MODEL"],
-        use_multi=True
+        ner_model=CONFIG["NER_MODEL"]
     )
 
     # Step 5: Sentiment Analyzer
@@ -69,10 +68,10 @@ def main():
         model_name=CONFIG["SENTIMENT_MODEL"]
     )
 
-    # We'll just show an example on the first 5 items
+    # We'll just show an example on the last 5 items
     experiment_results = []
     print("\n[INFO] Starting translation, entity recognition, and sentiment analysis...\n")
-    for i, item in enumerate(all_news_data[:3]):
+    for i, item in enumerate(all_news_data[-5:]):
         source_lang = item["language"]
         original_text = item["news_text"]
 
@@ -85,24 +84,24 @@ def main():
         entities = []
         sentiment_result = None
 
-        if source_lang in CONFIG["TRANSLATION_MODELS"]:
-            translated_text, entities = translator.translate_and_identify(
-                text=original_text,
-                source_lang=source_lang
-            )
+        # if source_lang in CONFIG["TRANSLATION_MODELS"]:
+        translated_text, entities = translator.translate_and_identify(
+            text=original_text,
+            source_lang=source_lang
+        )
 
-            print(f"Translated Text (Turkish): {translated_text}")
-            print("Entities found:")
-            for ent in entities:
-                print(f"  - {ent['entity']} ({ent['type']}) [score: {ent['score']:.2f}]")
+        print(f"Translated Text (Turkish): {translated_text}")
+        print("Entities found:")
+        for ent in entities:
+            print(f"  - {ent['entity']} ({ent['type']}) [score: {ent['score']:.2f}]")
 
-            sentiment_result = sentiment_analyzer.analyze_sentiment(translated_text)
-            if sentiment_result:
-                print(f"Sentiment: {sentiment_result['label']} | Score: {sentiment_result['score']:.2f}")
-            else:
-                print("No sentiment result.")
+        sentiment_result = sentiment_analyzer.analyze_sentiment(translated_text)
+        if sentiment_result:
+            print(f"Sentiment: {sentiment_result['label']} | Score: {sentiment_result['score']:.2f}")
         else:
-            print("No translation model available for this language. Skipping translation & sentiment analysis...")
+            print("No sentiment result.")
+        # else:
+        #     print("No translation model available for this language. Skipping translation & sentiment analysis...")
 
         # Step 6: Prepare experiment result dict
         entities_str = ", ".join(f"{e['entity']}({e['type']})" for e in entities)

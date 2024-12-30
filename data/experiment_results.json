@@ -1,32 +1,52 @@
 [
     {
-        "original_text": "Over a quarter of a century in power we've seen many different Putins, says the BBC's Russia editor.",
-        "cleaned_text": "As Putin reaches 25 years in power, has he 'taken care of Russia'? Over a quarter of a century in power we've seen many different Putins, says the BBC's Russia editor. Over a quarter of a century in power we've seen many different Putins, says the BBC's Russia editor.",
-        "source_lang": "English",
+        "original_text": "<p><a href=\"https://www.repubblica.it/esteri/2024/12/29/news/cecilia_sala_dipartimento_stato_usa_iran-423911588/?rssimage\"> <img align=\"left\" hspace=\"10\" src=\"https://www.repstatic.it/content/nazionale/img/2024/12/29/104655827-590bf8de-ceac-410c-9d17-584939c93d5a.jpg\" width=\"140\" /></a>ESCLUSIVO / Il Dipartimento di Stato e il legame tra la detenzione della giornalista e il fermo in Italia del trafficante Abedini: “La reporter usata come leva politica, siamo in contatto con Roma”. Ma nessuna marcia indietro sull’uomo di Teheran: “Ne chiederemo l’estradizione...</p>",
+        "cleaned_text": "Cecilia Sala, gli Stati Uniti a Repubblica: Arresto ingiustificato, l’Iran la liberi subito <p><a href=\"https://www.repubblica.it/esteri/2024/12/29/news/cecilia_sala_dipartimento_stato_usa_iran-423911588/?rssimage\"> <img align=\"left\" hspace=\"10\" src=\"https://www.repstatic.it/content/nazionale/img/2024/12/29/104655827-590bf8de-ceac-410c-9d17-584939c93d5a.jpg\" width=\"140\" /></a>ESCLUSIVO / Il Dipartimento di Stato e il legame tra la detenzione della giornalista e il fermo in Italia del trafficante Abedini: La reporter usata come leva politica, siamo in contatto con Roma. Ma nessuna marcia indietro sull’uomo di Teheran: Ne chiederemo l’estradizione...</p> <p><a href=\"https://www.repubblica.it/esteri/2024/12/29/news/cecilia_sala_dipartimento_stato_usa_iran-423911588/?rssimage\"> <img align=\"left\" hspace=\"10\" src=\"https://www.repstatic.it/content/nazionale/img/2024/12/29/104655827-590bf8de-ceac-410c-9d17-584939c93d5a.jpg\" width=\"140\" /></a>ESCLUSIVO / Il Dipartimento di Stato e il legame tra la detenzione della giornalista e il fermo in Italia del trafficante Abedini: La reporter usata come leva politica, siamo in contatto con Roma. Ma nessuna marcia indietro sull’uomo di Teheran: Ne chiederemo l’estradizione...</p>",
+        "source_lang": "Italian",
         "turkey_score": 0,
-        "translated_text": "Putin, 25 yıl iktidara geldiğinde, 'Rusya'ya göz kulak oldu' mu? çeyrek asırdan fazla iktidarda birçok farklı Putin gördük, diyor BBC'nin Rusya editörü. çeyrek asırdan fazla iktidarda birçok farklı Putin gördük, diyor BBC'nin Rusya editörü.",
-        "entities": "Putin(PER), Rusya(LOC), BBC(ORG)",
+        "translated_text": "Cecilia Sala, ABD'den Cumhuriyet'e: <İndirimli Tutuklama\"</İndirimli Tutuklama</İndirimli Tutuklama</İndirimli Tutuklama</İndirimli Tutuklama</İndirimli Tutuklama</İndirimli Tutuklama</İndirimli Tutuklama</İndirimli Tutuklama</İndirimli Tutuklama</İndirimliyorsunuz</İndirimliyorsunuz</İndir.",
+        "entities": "C(PER), ##ecilia Sala(PER)",
         "sentiment_label": "positive",
-        "sentiment_score": 0.9993739724159241
+        "sentiment_score": 0.9850968718528748
     },
     {
-        "original_text": "Russia's leader apologises over the downing of an Azerbaijani plane in Russian airspace - without directly taking blame.",
-        "cleaned_text": "Putin apologises over Azerbaijan plane crash, without saying Russia at fault Russia's leader apologises over the downing of an Azerbaijani plane in Russian airspace - without directly taking blame. Russia's leader apologises over the downing of an Azerbaijani plane in Russian airspace - without directly taking blame.",
-        "source_lang": "English",
+        "original_text": "<p><a href=\"https://www.repubblica.it/esteri/2024/12/29/news/l_innalzamento_dei_mari_minaccia_un_villaggio_bretone_gli_abitanti_smontano_le_case_e_se_ne_vanno-423911493/?rssimage\"> <img align=\"left\" hspace=\"10\" src=\"https://www.repstatic.it/content/nazionale/img/2024/12/29/095854463-32e327b8-0bba-4248-869c-9bf09da08948.jpg\" width=\"140\" /></a>A Treffiagat la spiaggia è arretrata di 8 metri e i temporali costringono i cittadini a lasciare le abitazioni. Con la morte nel cuore, ma ripagati dallo Stato, loro hanno deciso allora di andarsene per sempre. “Il mare è troppo più forte di noi”</p>",
+        "cleaned_text": "L’innalzamento dei mari minaccia un villaggio bretone. Gli abitanti smontano le case e se ne vanno <p><a href=\"https://www.repubblica.it/esteri/2024/12/29/news/l_innalzamento_dei_mari_minaccia_un_villaggio_bretone_gli_abitanti_smontano_le_case_e_se_ne_vanno-423911493/?rssimage\"> <img align=\"left\" hspace=\"10\" src=\"https://www.repstatic.it/content/nazionale/img/2024/12/29/095854463-32e327b8-0bba-4248-869c-9bf09da08948.jpg\" width=\"140\" /></a>A Treffiagat la spiaggia è arretrata di 8 metri e i temporali costringono i cittadini a lasciare le abitazioni. Con la morte nel cuore, ma ripagati dallo Stato, loro hanno deciso allora di andarsene per sempre. Il mare è troppo più forte di noi</p> <p><a href=\"https://www.repubblica.it/esteri/2024/12/29/news/l_innalzamento_dei_mari_minaccia_un_villaggio_bretone_gli_abitanti_smontano_le_case_e_se_ne_vanno-423911493/?rssimage\"> <img align=\"left\" hspace=\"10\" src=\"https://www.repstatic.it/content/nazionale/img/2024/12/29/095854463-32e327b8-0bba-4248-869c-9bf09da08948.jpg\" width=\"140\" /></a>A Treffiagat la spiaggia è arretrata di 8 metri e i temporali costringono i cittadini a lasciare le abitazioni. Con la morte nel cuore, ma ripagati dallo Stato, loro hanno deciso allora di andarsene per sempre. Il mare è troppo più forte di noi</p>",
+        "source_lang": "Italian",
         "turkey_score": 0,
-        "translated_text": "Putin, Azerbaycan uçak kazası nedeniyle özür diledi, Rusya'nın hatalı olduğunu söylemeden Rusya lideri, doğrudan suçlamadan Rus hava sahasında bir Azerbaycan uçağının düşürülmesinden dolayı özür diledi. Rusya lideri, doğrudan suçlama yapmadan Rus hava sahasında bir Azerbaycan uçağının düşürülmesinden dolayı özür diledi.",
-        "entities": "Putin(PER), Azerbaycan(LOC), kazası(ORG), Rusya(LOC), Rus(LOC)",
-        "sentiment_label": "negative",
-        "sentiment_score": 0.9915480017662048
+        "translated_text": "Denizlerin yükselmesi, bir Breton köyünü tehdit ediyor. Yerleşikler, evlerin sökülmesi ve <p>berrake_205_a48</pcadia_196_a48</pcadia_a48</p> <p>berrake_196_a48</pcadia_a48</pcadia_a48</p> 'dir. <p> <p> href=\"b_b/a32_a32b_a32_b> leri.",
+        "entities": "Breton(LOC)",
+        "sentiment_label": "positive",
+        "sentiment_score": 0.9927265644073486
     },
     {
-        "original_text": "Former head of state Salome Zourabichvili agreed to leave the presidential residence, but vowed to fight on.",
-        "cleaned_text": "Georgia's outgoing president refuses to quit as successor sworn in Former head of state Salome Zourabichvili agreed to leave the presidential residence, but vowed to fight on. Former head of state Salome Zourabichvili agreed to leave the presidential residence, but vowed to fight on.",
-        "source_lang": "English",
-        "turkey_score": 1,
-        "translated_text": "Gürcistan'ın giden cumhurbaşkanı, eski devlet başkanı Salome Zourabichvili'de yemin ederek istifa etmeyi reddetti, ancak başkanlık konutundan ayrılmaya söz verdi. Eski devlet başkanı Salome Zourabichvili, başkanlık konutundan ayrılmayı kabul etti, ancak savaşmaya söz verdi.",
-        "entities": "Gürcistan(LOC), Salome Zourabichvili(PER)",
+        "original_text": "<p><a href=\"https://www.repubblica.it/esteri/2024/12/29/news/incidente_aereo_corea_del_sud_muan-423911242/?rssimage\"> <img align=\"left\" hspace=\"10\" src=\"https://www.repstatic.it/content/nazionale/img/2024/12/29/060425363-f64ac73b-75a0-4eb9-aea1-6507e9c03334.jpg\" width=\"140\" /></a>L’incidente all’aeroporto di Muan: i sopravvissuti sono due membri dell’equipaggio. Ipotesi di impatto con uno stormo di uccelli</p>",
+        "cleaned_text": "Corea del Sud, aereo esce di pista: esplosione dopo lo schianto. I morti sono 179, solo due i superstiti <p><a href=\"https://www.repubblica.it/esteri/2024/12/29/news/incidente_aereo_corea_del_sud_muan-423911242/?rssimage\"> <img align=\"left\" hspace=\"10\" src=\"https://www.repstatic.it/content/nazionale/img/2024/12/29/060425363-f64ac73b-75a0-4eb9-aea1-6507e9c03334.jpg\" width=\"140\" /></a>L’incidente all’aeroporto di Muan: i sopravvissuti sono due membri dell’equipaggio. Ipotesi di impatto con uno stormo di uccelli</p> <p><a href=\"https://www.repubblica.it/esteri/2024/12/29/news/incidente_aereo_corea_del_sud_muan-423911242/?rssimage\"> <img align=\"left\" hspace=\"10\" src=\"https://www.repstatic.it/content/nazionale/img/2024/12/29/060425363-f64ac73b-75a0-4eb9-aea1-6507e9c03334.jpg\" width=\"140\" /></a>L’incidente all’aeroporto di Muan: i sopravvissuti sono due membri dell’equipaggio. Ipotesi di impatto con uno stormo di uccelli</p>",
+        "source_lang": "Italian",
+        "turkey_score": 0,
+        "translated_text": "Güney Kore, uçak piste çıkıyor: kazadan sonra bir patlama. Ölümler 179, ölümler </a7_203 / 203 / 203 / 203 / 203 / 124 / 203 / 124 / 203 / 124 / 203 / 124 / 124 / 12 / 123 / 12 / 12 / 12 / 12 / 12 / 12 / 12 / 12 / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s  / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s / s",
+        "entities": "Güney Kore(LOC)",
+        "sentiment_label": "positive",
+        "sentiment_score": 0.9958015084266663
+    },
+    {
+        "original_text": "<p><a href=\"https://www.repubblica.it/esteri/2024/12/29/news/germania_musk_difende_afd_giornalista_dimissioni-423911215/?rssimage\"> <img align=\"left\" hspace=\"10\" src=\"https://www.repstatic.it/content/nazionale/img/2024/12/29/010752239-2db6d89c-97b5-425e-9218-5559a131f2f6.jpg\" width=\"140\" /></a>La decisione di Eva Marie Kogel, responsabile della pagina delle opinioni. Nell’articolo il miliardario ribadisce che solo il partito di Weidel può salvare la Germania</p>",
+        "cleaned_text": "Musk difende gli estremisti di Afd con un commento sulla Welt am Sonntag. Giornalista dà le dimissioni <p><a href=\"https://www.repubblica.it/esteri/2024/12/29/news/germania_musk_difende_afd_giornalista_dimissioni-423911215/?rssimage\"> <img align=\"left\" hspace=\"10\" src=\"https://www.repstatic.it/content/nazionale/img/2024/12/29/010752239-2db6d89c-97b5-425e-9218-5559a131f2f6.jpg\" width=\"140\" /></a>La decisione di Eva Marie Kogel, responsabile della pagina delle opinioni. Nell’articolo il miliardario ribadisce che solo il partito di Weidel può salvare la Germania</p> <p><a href=\"https://www.repubblica.it/esteri/2024/12/29/news/germania_musk_difende_afd_giornalista_dimissioni-423911215/?rssimage\"> <img align=\"left\" hspace=\"10\" src=\"https://www.repstatic.it/content/nazionale/img/2024/12/29/010752239-2db6d89c-97b5-425e-9218-5559a131f2f6.jpg\" width=\"140\" /></a>La decisione di Eva Marie Kogel, responsabile della pagina delle opinioni. Nell’articolo il miliardario ribadisce che solo il partito di Weidel può salvare la Germania</p>",
+        "source_lang": "Italian",
+        "turkey_score": 0,
+        "translated_text": "Musk, Wielt am Sonntag'ın <wwwdizgi-29'u</wwwpid-29'un> wiedwide-29'u</wwwdizgi-29'un> wiedji-29'u</wwwdizgi-29'un> aşırılıklarını savunur. Gazeteci, <p>a href=\"https://www.republica.it/629/newidgime'nin</wwwdizgiment_2b12/> istifasını verir.",
+        "entities": "Musk(PER), Wi(PER), ##elt(ORG), am Sonntag(PER)",
         "sentiment_label": "negative",
-        "sentiment_score": 0.9309374094009399
+        "sentiment_score": 0.9903345704078674
+    },
+    {
+        "original_text": "<p><a href=\"https://www.repubblica.it/esteri/2024/12/29/news/cecilia_sala_arrestata_isolamento_evin_iran-423911183/?rssimage\"> <img align=\"left\" hspace=\"10\" src=\"https://www.repstatic.it/content/nazionale/img/2024/12/28/233012021-a3d721c2-0cde-4e7a-8592-b906c2b794b2.jpg\" width=\"140\" /></a>Luci sempre accese, bloccato dalle guardie un pacco con vestiti e un panettone. Alla giornalista non sono ancora state notificate le accuse da parte delle autorità</p>",
+        "cleaned_text": "Cecilia Sala in cella da sola: È in buona salute, saprà di tutto l’affetto <p><a href=\"https://www.repubblica.it/esteri/2024/12/29/news/cecilia_sala_arrestata_isolamento_evin_iran-423911183/?rssimage\"> <img align=\"left\" hspace=\"10\" src=\"https://www.repstatic.it/content/nazionale/img/2024/12/28/233012021-a3d721c2-0cde-4e7a-8592-b906c2b794b2.jpg\" width=\"140\" /></a>Luci sempre accese, bloccato dalle guardie un pacco con vestiti e un panettone. Alla giornalista non sono ancora state notificate le accuse da parte delle autorità</p> <p><a href=\"https://www.repubblica.it/esteri/2024/12/29/news/cecilia_sala_arrestata_isolamento_evin_iran-423911183/?rssimage\"> <img align=\"left\" hspace=\"10\" src=\"https://www.repstatic.it/content/nazionale/img/2024/12/28/233012021-a3d721c2-0cde-4e7a-8592-b906c2b794b2.jpg\" width=\"140\" /></a>Luci sempre accese, bloccato dalle guardie un pacco con vestiti e un panettone. Alla giornalista non sono ancora state notificate le accuse da parte delle autorità</p>",
+        "source_lang": "Italian",
+        "turkey_score": 0,
+        "translated_text": "<p><a href=\"https://www.republica.it/esters/2024/12/29/news/cecilia_sala_iran_iran-23911183/?rssimage</p> <a href=\"https_202b/20c2a\">bağlantısız</a> href=\"https_2c_2b_at.",
+        "entities": "",
+        "sentiment_label": "positive",
+        "sentiment_score": 0.9990633130073547
     }
 ]

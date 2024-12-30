@@ -4,12 +4,6 @@ CONFIG = {
             "url": "https://feeds.bbci.co.uk/news/world/europe/rss.xml",
             "language": "English"
         },
-    ],
-    "RSS_FEEDS_RECOVERY": [
-        {
-            "url": "https://feeds.bbci.co.uk/news/world/europe/rss.xml",
-            "language": "English"
-        },
         {
             "url": "https://www.theguardian.com/world/turkey/rss",
             "language": "English"
@@ -33,14 +27,14 @@ CONFIG = {
         {
             "url": "https://www.repubblica.it/rss/esteri/rss2.0.xml",
             "language": "Italian"
-        }
+        }  
     ],
     "TRANSLATION_MODELS": {
         "Multilingual-1" : "Narrativa/mbart-large-50-finetuned-opus-en-pt-translation",
-        # "English": "Helsinki-NLP/opus-mt-tc-big-en-tr",
         "English": "models/fewshot_opus-mt-tc-big-en-tr",
-        # "French": "Helsinki-NLP/opus-mt-fr-tr",
-        "German": "Helsinki-NLP/opus-mt-tc-big-gmq-tr"
+        "Italian":"Helsinki-NLP/opus-mt-tc-big-itc-tr",
+        "French->English": "Helsinki-NLP/opus-mt-fr-en",
+        "German->English": "Helsinki-NLP/opus-mt-de-en"
         # or local paths, e.g. "English": "/path/to/local/en-tr-model"
     },
     # Model to be used for Named Entity Recognition (NER)
@@ -55,4 +49,8 @@ CONFIG = {
         "CHARS_TO_REMOVE": ["%", "…", "\n", "\r", "“", "”"]
     },
     "TURKEY_KEYWORDS_PATH": "data/keywords/turkey_keywords.csv",
+    
+    "BART_MODEL": {
+        "name_or_path": "facebook/bart-large"
+    }
 }
