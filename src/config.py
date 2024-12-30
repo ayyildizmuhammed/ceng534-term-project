@@ -30,7 +30,6 @@ CONFIG = {
         }  
     ],
     "TRANSLATION_MODELS": {
-        "Multilingual-1" : "Narrativa/mbart-large-50-finetuned-opus-en-pt-translation",
         "English": "models/fewshot_opus-mt-tc-big-en-tr",
         "Italian":"Helsinki-NLP/opus-mt-tc-big-itc-tr",
         "French->English": "Helsinki-NLP/opus-mt-fr-en",
@@ -41,7 +40,7 @@ CONFIG = {
     "NER_MODEL": "savasy/bert-base-turkish-ner-cased",
     # Model to be used for sentiment analysis
     "SENTIMENT_MODEL": "models/fewshot_bert-base-turkish-sentiment-cased",
-    # "SENTIMENT_MODEL": "savasy/bert-base-turkish-sentiment-cased",k
+    # "SENTIMENT_MODEL": "savasy/bert-base-turkish-sentiment-cased",
     "FEWSHOT_SENTIMENT_MODEL": "models/fewshot_bert-base-turkish-sentiment-cased",
     
 
@@ -50,7 +49,5 @@ CONFIG = {
     },
     "TURKEY_KEYWORDS_PATH": "data/keywords/turkey_keywords.csv",
     
-    "BART_MODEL": {
-        "name_or_path": "facebook/bart-large"
-    }
+    "BART_BASE_MODEL": "facebook/bart-large"
 }

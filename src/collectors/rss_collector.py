@@ -43,7 +43,7 @@ class RSSCollector:
                 "summary": entry.summary if hasattr(entry, "summary") else "",
                 "link": entry.link if hasattr(entry, "link") else "",
                 "published": entry.published if hasattr(entry, "published") else "",
-                # We try to detect language from the feed itself; if not present, fallback to self.language
+                # Try to detect language from the feed itself; if not present, fallback to self.language
                 "language": entry.language if hasattr(entry, "language") else self.language,
                 "news_text": entry.title + " " + entry.description + " " + entry.summary
             }

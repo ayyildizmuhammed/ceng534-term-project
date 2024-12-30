@@ -31,7 +31,6 @@ class TextPreprocessor:
         for char in self.chars_to_remove:
             cleaned = cleaned.replace(char, "")
 
-        # Ek bir örnek: Belki çoklu boşlukları tek boşluğa indirmek isterseniz:
         cleaned = re.sub(r"\s+", " ", cleaned).strip()
 
         return cleaned

@@ -15,16 +15,16 @@ from transformers import (
 def prepare_dataset(csv_file: str):
     """
     Reads the CSV file and creates a Hugging Face Dataset object 
-    for English -> Turkish translation.
+    for src_lang -> dst_lang translation.
     csv_file: path to the CSV file with columns:
-        English Title, English Summary, Turkish Title, Turkish Summary
+        src_text, dst_text
     """
     df = pd.read_csv(csv_file)
 
     # Birleştir: English Title + English Summary -> source_text
     #            Turkish Title + Turkish Summary -> target_text
-    df["source_text"] = df["English Title"] + " " + df["English Summary"]
-    df["target_text"] = df["Turkish Title"] + " " + df["Turkish Summary"]
+    df["source_text"] = df["src_text"]
+    df["target_text"] = df["dst_text"]
 
     # Minimum örnek olsun diye dataframe’i direkt dataset’e çeviriyoruz
     dataset = Dataset.from_pandas(df)
@@ -125,10 +125,10 @@ def train_fewshot_translation(
 if __name__ == "__main__":
     # Örnek kullanım:
     output_model_path = train_fewshot_translation(
-        model_name="Helsinki-NLP/opus-mt-tc-big-en-tr",
-        csv_file="data/train/fewshot_sample.csv",  # Sizin CSV yolunuz
-        output_dir="models/fewshot_opus-mt-tc-big-en-tr",
-        max_train_samples=None,  # Verinin tamamını kullan
+        model_name="Helsinki-NLP/opus-mt-tc-big-itc-tr",
+        csv_file="data/train/fewshot_translation_sample_it.csv",
+        output_dir="models/fewshot_opus-mt-tc-big-itc-tr",
+        max_train_samples=None,
         num_train_epochs=3,
         batch_size=1
     )

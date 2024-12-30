@@ -23,22 +23,19 @@ def prepare_sentiment_dataset(csv_file: str):
     df = pd.read_csv(csv_file)
 
     # Normalize labels if necessary (e.g., lowercase)
-    df["Label"] = df["Label"].str.lower()
+    df["label"] = df["label"].str.lower()
 
     # Map labels to integers if they are not already
     label_mapping = {"negative": 0, "positive": 1}
-    df["Label"] = df["Label"].map(label_mapping)
-
-    # Rename columns for consistency
-    df = df.rename(columns={"Text": "text", "Label": "label"})
+    df["label"] = df["label"].map(label_mapping)
 
     dataset = Dataset.from_pandas(df)
     return dataset
 
 def train_fewshot_sentiment(
     model_name,
-    csv_file="data/train/fewshot_sentiment.csv",
-    output_dir="models/fewshot_sentiment_model",
+    csv_file="data/train/fewshot_sentiment_sample.csv",
+    output_dir="models/fewshot_bert-base-turkish-sentiment-cased",
     max_train_samples=None,
     num_train_epochs=3,
     batch_size=2,
